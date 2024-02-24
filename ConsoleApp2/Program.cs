@@ -13,6 +13,8 @@ namespace ConsoleApp2
             Console.WriteLine("Введите X");
             double x = Convert.ToInt32(Console.ReadLine());
             double y = 5 * Math.Sin(x) - 7 * Math.Cos(x);
+            Console.WriteLine("Результат: " + y);
+            Console.ReadKey();
         }
     }
 }

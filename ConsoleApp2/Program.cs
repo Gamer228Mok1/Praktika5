@@ -10,6 +10,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите X");
+            double x = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
